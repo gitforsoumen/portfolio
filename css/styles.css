@@ -115,7 +115,7 @@
     margin:0 10px;
     text-decoration:none;
     font-size:20px;
-	background:#fd7400;
+	background:#309f56;
     color:#fff;
     border-radius: 50%;
 }
@@ -123,6 +123,148 @@
 .portfolio-section figure .inner-overlay-content.with-icons a i {
     color:#fff;
 }
+
+
+
+
+
+
+.certifications-section.certificat-col figure .overlay-background {
+    background-color:#000;
+    background-color:rgba(0,0,0,0.6);
+}
+
+
+/* portfolio images */
+
+.certifications-section figure {
+    float:left;
+    width:100%;
+    position:relative
+}
+
+.certifications-section figure img {
+    width:100%;
+    height:auto
+}
+
+
+/* project title under image */
+
+.certifications-section .article-title {
+    text-align:center;
+    float:left;
+    width:100%;
+    font-size:18px;
+    line-height:24px;
+    padding:10px 0 30px 0;
+}
+
+.certifications-section .article-title a {
+    color:#aaa;
+	font-size:14px;
+}
+
+
+/* transparent overlay */
+
+.certifications-section figure:hover .overlay {
+    opacity:1;
+    visibility:visible
+}
+
+.certifications-section figure:hover .overlay-background {
+    opacity:.8;
+    visibility:visible
+}
+
+.certifications-section figure .overlay-background {
+    z-index:1;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    visibility:hidden;
+    width:100%;
+    height:100%
+}
+
+.certifications-section figure .overlay-background .inner {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    margin:11px;
+    /*background-color:#c8e9c8;
+    background-color:rgba(194,231,194,0.9)*/
+}
+
+.certifications-section figure .overlay {
+    z-index:2;
+    transition:all .2s ease-in-out;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    visibility:hidden;
+    width:100%;
+    height:100%
+}
+
+.certifications-section figure .inner-overlay {
+    display:table;
+    width:100%;
+    height:100%
+}
+
+.certifications-section figure .inner-overlay-content {
+    display:table-cell;
+    vertical-align:middle;
+    width:100%;
+    padding:20px 40px
+}
+
+.certifications-section figure .inner-overlay-content.with-icons {
+    text-align:center
+}
+
+
+/* icons inside overlay */
+
+.certifications-section figure .inner-overlay-content.with-icons a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    margin:0 10px;
+    text-decoration:none;
+    font-size:20px;
+	background:#309f56;
+    color:#fff;
+    border-radius: 50%;
+}
+
+.certifications-section figure .inner-overlay-content.with-icons a i {
+    color:#fff;
+}
+
+
+
+
+.about-me p{padding-bottom: 30px;}
+.about-me li{padding:5px 0;}
+.about-me li i{padding: 0 5px 0 0; color: #309f56;}
+
+
+.new-employment li{padding:5px 0;}
+
+.new-contact i{font-size: 36px;}
+
 
 
 
