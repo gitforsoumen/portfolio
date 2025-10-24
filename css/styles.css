@@ -166,13 +166,12 @@
 }
 
 .certifications-section .article-title a span {
-    display: block;
+    display: block !important;
 }
 
 .certifications-section .article-title a span:first-child {
-    color: #000;
-    font-weight: bold;
-    
+    color: #000 !important;
+    font-weight: bold !important;
 }
 
 /* transparent overlay */
