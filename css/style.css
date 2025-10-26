@@ -516,10 +516,13 @@ span.view-all-certificate a{
     padding: 10px 22px !important;
     font-weight: 700 !important;
     color: #309f56 !important;
-    border: 2px solid #309f56 !important;
+    border: 1px solid #309f56 !important;
+    display: block !important;
 }
 
-
+span.view-all-certificate a:hover{
+    background: #309f56 !important;
+}
 
 
 
