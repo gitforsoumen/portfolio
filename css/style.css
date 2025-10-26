@@ -509,11 +509,11 @@ i { color: #9a9a9a; margin:0}
 section { padding: 130px 0; }
 .button-bg-area{padding: 80px 0;}
 
-span{
+span.view-all-certificate{
 
     float: right;
 }
-.view-all-certificate a{
+span.view-all-certificate a{
     padding: 10px 22px;
     font-weight: 700;
     color: #309f56;
