@@ -134,7 +134,7 @@
     background-color:rgba(0,0,0,0.6);
 }
 
-.view-all-certificate{
+span.view-all-certificate a{
 
     float: right !important;
     font-weight: 700 !important;
