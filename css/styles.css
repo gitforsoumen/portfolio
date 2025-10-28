@@ -280,50 +280,45 @@
 
 
 .case-study-single{
-
+float: left;
+padding-bottom: 30px;
+margin-bottom: 30px;
 
 }
 
 .project-title{
 font-weight: bold;
-font-size: 18px;
+font-size: 24px;
 padding:0 0 15px 0;
 }
 
-.project-description{
-padding-bottom: 30px;
 
-}
-
-.project-impact{
-
+.project-impact h2{
+font-size: 18px;
+font-weight: bold;
 }
 
 .project-impact ul{
-    
+    padding: 15px 0 15px 15px;
 }
 
 .project-impact ul li{
-    
-}
-
-.view-case-study{
-
+    list-style: disc;
 }
 
 .view-case-study a{
-      padding: 10px 22px !important;
-    font-weight: 500 !important;
-    color: #309f56 !important;
-    border: 1px solid #309f56 !important;
-    display: block !important;
+    padding: 10px 22px;
+    font-weight: 500;
+    color: #309f56;
+    border: 1px solid #309f56 ;
+    display: inline-block;
     line-height: 16px;  
     
 }
 
 .view-case-study a:hover{
-        background: #309f56 !important;
-     color: #ffffff !important;
+    background: #309f56;
+    color: #ffffff;
 }
 
 
