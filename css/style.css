@@ -509,22 +509,6 @@ i { color: #9a9a9a; margin:0}
 section { padding: 130px 0; }
 .button-bg-area{padding: 80px 0;}
 
-span.view-all-certificate{
-    float: right !important;
-}
-span.view-all-certificate a{
-    padding: 10px 22px !important;
-    font-weight: 700 !important;
-    color: #309f56 !important;
-    border: 1px solid #309f56 !important;
-    display: block !important;
-}
-
-span.view-all-certificate a:hover{
-    background: #309f56 !important;
-     color: #ffffff !important;
-}
-
 
 
 /* ===================================
@@ -2058,6 +2042,70 @@ to {
   transform: translateY(-2px);
 }
     
+span.view-all-certificate{
+    float: right !important;
+}
+span.view-all-certificate a{
+    padding: 10px 22px !important;
+    font-weight: 500 !important;
+    color: #309f56 !important;
+    border: 1px solid #309f56 !important;
+    display: block !important;
+    line-height: 16px;
+}
+
+span.view-all-certificate a:hover{
+    background: #309f56 !important;
+     color: #ffffff !important;
+}
+
+
+.case-study-single{
+
+
+}
+
+.project-title{
+font-weight: bold;
+font-size: 18px;
+padding:0 0 15px 0;
+}
+
+.project-description{
+padding-bottom: 30px;
+
+}
+
+.project-impact{
+
+}
+
+.project-impact ul{
+    
+}
+
+.project-impact ul li{
+    
+}
+
+.view-case-study{
+
+}
+
+.view-case-study a{
+      padding: 10px 22px !important;
+    font-weight: 500 !important;
+    color: #309f56 !important;
+    border: 1px solid #309f56 !important;
+    display: block !important;
+    line-height: 16px;  
+    
+}
+
+.view-case-study a:hover{
+        background: #309f56 !important;
+     color: #ffffff !important;
+}
 
 .blue-text{color:#002040 !important;}
 .background-green{background-color:#309f56 !important;}
@@ -2066,8 +2114,6 @@ to {
 
 .btn-green{ border: 2px solid #309f56; color: #fff; display: inline-block; background-color: #309f56; padding: 7px 20px 8px; width: auto;}
 .btn-green:hover, .btn-green:focus {border: 2px solid #309f56; color: #309f56; background-color: transparent}
-
-
 
 
 
