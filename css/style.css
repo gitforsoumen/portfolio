@@ -2060,52 +2060,7 @@ span.view-all-certificate a:hover{
 }
 
 
-.case-study-single{
 
-
-}
-
-.project-title{
-font-weight: bold;
-font-size: 18px;
-padding:0 0 15px 0;
-}
-
-.project-description{
-padding-bottom: 30px;
-
-}
-
-.project-impact{
-
-}
-
-.project-impact ul{
-    
-}
-
-.project-impact ul li{
-    
-}
-
-.view-case-study{
-
-}
-
-.view-case-study a{
-      padding: 10px 22px !important;
-    font-weight: 500 !important;
-    color: #309f56 !important;
-    border: 1px solid #309f56 !important;
-    display: block !important;
-    line-height: 16px;  
-    
-}
-
-.view-case-study a:hover{
-        background: #309f56 !important;
-     color: #ffffff !important;
-}
 
 .blue-text{color:#002040 !important;}
 .background-green{background-color:#309f56 !important;}
