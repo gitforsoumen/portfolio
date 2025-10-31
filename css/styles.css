@@ -282,7 +282,7 @@
 .case-study-single{
 float: left;
 padding-bottom: 30px;
-margin-bottom: 30px;
+margin-bottom: 30px !important;
 
 }
 
@@ -296,10 +296,11 @@ padding:0 0 15px 0;
 .project-impact-header{
 font-size: 18px;
 font-weight: bold;
+padding-top: 15px;
 }
 
 .project-impact ul{
-    padding: 15px 0 15px 15px;
+    padding: 10px 0 15px 15px;
 }
 
 .project-impact ul li{
