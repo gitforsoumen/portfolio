@@ -310,7 +310,7 @@ i { color: #9a9a9a; margin:0}
 
 /* scroll top */
 .scrollToTop { display: none; font-weight: bold; height: auto; padding: 0; position: fixed; right: 35px; text-align: center; text-decoration: none; top: 94%; width: auto;z-index: 555; border-radius:2px; }
-.scrollToTop i { font-size: 18px; margin: 0 6px; color: rgb(0, 0, 0); }
+.scrollToTop i { font-size: 24px; margin: 0 6px; color: rgb(0, 0, 0); }
 .scrollToTop:hover { opacity: 0.5; }
 .scrollToTop:hover i { position: relative; }
 
@@ -748,7 +748,7 @@ nav.sidebar-nav .container { vertical-align: top; padding:60px 40px }
 .sidebar-nav .navbar-nav li a:before { content: ""; left: -1px; position: absolute; top: 9px; border-bottom: 2px solid #e53f27; width: 6px; transition-duration: .2s; -moz-transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s;}
 .sidebar-nav .navbar-nav li a:hover:before, .sidebar-nav .navbar-nav li.active a:before {width: 130px; border-bottom: 1px solid #e53f27;}
 .sidebar-wrapper {padding-left:250px }
-.sidebar-nav .footer-social i { font-size: 14px;}
+.sidebar-nav .footer-social i { font-size: 24px;}
 .sidebar-nav .footer-social a { margin: 0 10px;}
 
 /* pull menu */
