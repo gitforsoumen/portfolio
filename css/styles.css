@@ -327,9 +327,13 @@ padding-top: 15px;
     padding:20px 0;
 }
 
+.employment-single{
+padding: 50px 0;
+}
 
-
-
+.employment-name{
+    font-size: 24px;
+}
 
 
 
