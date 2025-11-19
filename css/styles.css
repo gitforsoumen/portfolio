@@ -323,7 +323,9 @@ padding-top: 15px;
     color: #ffffff;
 }
 
-
+.prompt-holder p{
+    padding:20px 0;
+}
 
 
 
