@@ -2070,6 +2070,14 @@ span.view-all-certificate a:hover{
 .btn-green{ border: 2px solid #309f56; color: #fff; display: inline-block; background-color: #309f56; padding: 7px 20px 8px; width: auto;}
 .btn-green:hover, .btn-green:focus {border: 2px solid #309f56; color: #309f56; background-color: transparent}
 
+.employment-single{
+padding: 50px 0 !important;
+}
+
+.employment-name{
+    font-size: 18px !important;
+    padding-bottom: 15px !;
+}
 
 
 .typed-cursor{
