@@ -1743,3 +1743,44 @@ padding-top: 15px;
     .pf-grid, .pf-card, .pf-card.is-new { transition: none; animation: none; }
 }
 .pf-grid { align-content: start; }
+
+/* =========================================================
+   CASE STUDIES: two buttons (View Case Study + View Figma Design)
+   ========================================================= */
+.cs-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 28px; }
+.cs-actions .cs-btn { margin-top: 0; }
+.cs-btn-outline {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 15px 24px; border-radius: 8px; border: 1.5px solid #0d2340; background: #fff;
+    font-size: 17px; font-weight: 700; line-height: 1.2; color: #0d2340 !important; text-decoration: none;
+    transition: background .25s, color .25s, border-color .25s;
+}
+.cs-btn-outline svg { color: #2e9e57; flex: none; transition: color .25s; }
+.cs-btn-outline:hover, .cs-btn-outline:focus { background: #0d2340; color: #fff !important; text-decoration: none; }
+.cs-btn-outline:hover svg, .cs-btn-outline:focus svg { color: #5fe39a; }
+.cs-btn-outline:focus-visible { outline: 2px solid #2e9e57; outline-offset: 2px; }
+@media (max-width: 767px) {
+    .cs-actions { flex-direction: column; align-items: stretch; gap: 12px; }
+    .cs-actions .cs-btn, .cs-btn-outline { justify-content: center; text-align: center; width: 100%; }
+}
+
+/* =========================================================
+   PORTFOLIO: hover scroll through the full design
+   ========================================================= */
+.pf-card__img { position: relative; }
+.pf-card__img .pf-card__full {
+    position: absolute; left: 0; top: 0; width: 100%; height: auto; max-width: none; object-fit: fill;
+    opacity: 0; pointer-events: none;
+    transform: translateY(0);
+    transition: top .8s ease, transform .8s ease, opacity .25s ease .8s;
+}
+@media (hover: hover) and (pointer: fine) {
+    .pf-card:hover .pf-card__img--scroll img:not(.pf-card__full) { transform: none; }
+    .pf-card:hover .pf-card__img .pf-card__full[src] {
+        opacity: 1; top: 100%; transform: translateY(-100%);
+        transition: top var(--scroll-time, 6s) linear, transform var(--scroll-time, 6s) linear, opacity .2s ease;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .pf-card__img .pf-card__full { display: none; }
+}
