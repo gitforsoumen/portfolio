@@ -847,6 +847,14 @@ padding-top: 15px;
     transition: transform .6s ease;
 }
 .ptd-card:hover .ptd-img img { transform: scale(1.03); }
+/* Prompt-to-Design hover scroll (same effect as the Portfolio website cards) */
+.ptd-img { position: relative; }
+.ptd-img .ptd-full { position: absolute; left: 0; top: 0; width: 100%; height: auto; max-width: none; object-fit: fill; opacity: 0; pointer-events: none; transform: translateY(0); transition: top .8s ease, transform .8s ease, opacity .25s ease .8s; }
+@media (hover: hover) and (pointer: fine) {
+    .ptd-card:hover .ptd-img--scroll img:not(.ptd-full) { transform: none; }
+    .ptd-card:hover .ptd-img .ptd-full[src] { opacity: 1; top: 100%; transform: translateY(-100%); transition: top var(--scroll-time, 6s) linear, transform var(--scroll-time, 6s) linear, opacity .2s ease; }
+}
+@media (prefers-reduced-motion: reduce) { .ptd-img .ptd-full { display: none; } }
 .ptd-body { padding: 18px 20px 22px; }
 .ptd-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .ptd-tag {
